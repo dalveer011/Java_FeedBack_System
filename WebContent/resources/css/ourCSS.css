@@ -1,0 +1,93 @@
+#carousel{
+	margin:0px;
+}
+#carousel img{
+	width:100%;
+	height:400px;
+}
+body{
+	padding-top:60px;
+}
+@media (min-width: 768px)
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 0px;
+   margin-left: 0px;
+}
+.navbar img{
+	margin-right:10px;
+	margin-left:-15px;
+}
+.navbar {
+    margin-bottom: 0px;
+    padding:3px;
+}
+div hr{
+	margin-top: 5px; 
+	height: 2px; 
+	border: none; 
+	background: green; 
+	width: 100%
+}
+.spacing{
+	margin:40px;
+}
+.spacingHome{
+	margin-bottom:40px;
+}
+//putting vertical line in about us
+.verticalLine {
+    border-left: thick solid #ff0000;
+}
+//changing width to tackle column drop at 976px
+/* You can change the max-width 
+to whatever you want... */
+@media (min-width: 976px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+   .navbar-nav .open .dropdown-menu {
+       position: static;
+       float: none;
+       width: auto;
+       margin-top: 0;
+       background-color: transparent;
+       border: 0;
+       -webkit-box-shadow: none;
+       box-shadow: none;
+    }
+    .navbar-right#logout{
+    margin-top:8px;
+    }
+    
+}
